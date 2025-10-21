@@ -6,7 +6,11 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
+<<<<<<< HEAD
   background: #b6e6bd;
+=======
+  background: linear-gradient(135deg, #b6e6bd);
+>>>>>>> 1addcf67f5ebb90331b977ffd220aea423e94384
   color: #000000;
   line-height: 1.6;
 }
@@ -130,6 +134,7 @@ footer strong {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .dark footer{
   background-color: #263238;
   color: #fff;
@@ -171,4 +176,34 @@ footer strong {
 .dark #inicio p {
   background-color: #263238;
   color: #fff;
+=======
+.dark .bi-sun {
+  display: none;
+>>>>>>> 1addcf67f5ebb90331b977ffd220aea423e94384
 }
+
+.dark .bi-moon {
+  display: block;
+}
+
+.dark .card {
+  background-color: #37474f;
+}
+
+.dark .card-image {
+  background-color: #273035;
+}
+
+.dark .subtitle {
+  color: #67b4f3;
+}
+
+.dark .description {
+  color: #2196f3;
+}
+
+.dark .btn {
+  background-color: #67b4f3;
+}
+
+
