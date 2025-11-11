@@ -3,8 +3,9 @@
 <head>
     <title>Projeto TIVerde</title>
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-     <script src="darkmode.js" defer></script>
-     <link rel="stylesheet" href="style.css">
+     <script src="js/darkmode.js" defer></script>
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/miniquiz.js" type="module"></script>
 </head>
 <body>
     <header style="background-image: url('img/tiverde.jpeg');">
@@ -51,27 +52,31 @@
         </p>
      </div>
     </section>
-   <section>
-     <h2>Principais objetivos</h2>
-     <p><ul>
+  <div class="container-listas">
+  <section class="lista-info1">
+    <h2>Principais objetivos</h2>
+    <ul>
       <li>Reduzir o consumo de energia elétrica</li>
       <li>Diminuir o descarte de lixo eletrônico</li>
       <li>Reutilizar e reciclar equipamentos</li>
       <li>Otimizar o uso de recursos de TI</li>
       <li>Promover a sustentabilidade dentro das empresas</li>
-    </ul></p>
+    </ul>
   </section>
 
-  <section>
-     <h2>Beneficios </h2>
-     <p><ul>
+  <section class="lista-info2">
+    <h2>Benefícios</h2>
+    <ul>
       <li>Economia de energia e redução de custos operacionais</li>
       <li>Diminuição da poluição e do impacto ambiental</li>
       <li>Melhoria da imagem institucional (empresa sustentável)</li>
       <li>Cumprimento de normas e leis ambientais</li>
       <li>Inovação e competitividade no mercado</li>
-     </ul></p>
+    </ul>
   </section>
+  
+</div>
+    <button id="btnMensagem">Clique aqui</button>
 
   <footer id="contato">
     <p><strong>Planeta Conectados</strong> - Av. Paris, 84 - Bonsucesso, Rio de Janeiro - RJ, 21041-020</p>

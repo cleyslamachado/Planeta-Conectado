@@ -93,6 +93,21 @@ nav ul a{
     font-weight: lighter;
     margin: 18px 0;
 }
+.container-listas {
+  display: flex;
+  justify-content: space-between; /* separa um de cada lado */
+  gap: 30px;
+  padding: 30px 50px;
+}
+
+.container-listas section {
+  width: 45%; /* metade da tela */
+}
+
+.container-listas ul {
+  margin-left: 20px;
+}
+
 input[type= "checkbox"]{
   display:none;
 }
@@ -157,4 +172,19 @@ footer strong {
 }
 .dark .btn{
     color: #0d3b0e;
+}
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #02b60b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;      /* necessário */
+    margin: 0 auto;      /* centraliza */
+}
+
+button:hover {
+    background-color: #005f88;
 }
