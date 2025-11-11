@@ -4,26 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fórum TI Verde</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/forum.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="forum.css">
 </head>
 <body>
    <header>
-    <nav>
-  <a href="index.html">Início</a>
-    <a href="#">Notícias</a>
-  <a href="forum.html">Fórum</a>
-  <a href="#">Sobre nós</a>
-  <a href="#">Login</a>
-  </nav>
-  <div>
-    <input type="checkbox" name="change-theme" id="change-theme">
-    <label for="change-theme">
-     <i class="bi bi-sun"></i>
-     <i class="bi bi-moon"></i>
-    </label>
-  </div>
+        <div class="container">
+            <nav>
+                <a class="logo" href="index.html">&#x1F30E PlanetaConectado</a>
+                <ul>
+                    <ul class="ul">
+                        <a href="index.html">Inicio</a>
+                        <a href="noticias.html">Noticias</a>
+                        <a href="forum.html">Forum</a>
+                        <a href="sobrenos.html">Sobre Nós</a>
+                        <a class="btn" href="login.html">Login</a>
+                    </ul>
+                </ul>
+                <div>
+             <input type="checkbox" name="change-theme" id="change-theme">
+             <label for="change-theme">
+             <i class="bi bi-sun"></i>
+             <i class="bi bi-moon"></i>
+             </label>
+             </div>
+            </nav>
   </header>
 
   <main class="forum-container">
@@ -46,6 +52,7 @@
     <p>https://www.unisuam.edu.br/</p>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="forum.js"></script>
+  <script src="darkmode.js"></script>
 </body>
 </html>

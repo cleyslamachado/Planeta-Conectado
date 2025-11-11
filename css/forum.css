@@ -1,4 +1,16 @@
 
+header{
+ background:#017729;
+ color: #000;
+ text-align: center;
+ padding: 15px 30px;
+ box-shadow: 0.5px 0.5px 10px 0.5px #000;
+}
+
+nav{
+    padding-top: 10px;
+}
+
 .forum-container {
   max-width: 800px;
   margin: 2rem auto;
@@ -12,7 +24,7 @@
 }
 
 .new-post {
-  background: #5cbd5e;
+  background: #017729;
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -29,7 +41,7 @@
 }
 
 .new-post button {
-  background: #2e7d32;
+  background: #6ccb70;
   color: rgb(12, 12, 12);
   border: none;
   padding: 0.7rem 1.5rem;
@@ -39,7 +51,7 @@
 }
 
 .new-post button:hover {
-  background: #2e7d32;
+  background:#017729;
 }
 
 .posts ul {
@@ -57,4 +69,47 @@
 
 .posts li strong {
   color: #010101;
+}
+footer {
+  background:#017729;
+  text-align: center; 
+  padding: 15px 5px;    
+  font-size: 0.9rem;
+  color: #ffffff;
+  box-shadow: 0.5px 0.5px 10px 0.5px #000;
+}
+footer strong {
+  color: #ffffff;
+  text-shadow: 0 0 6px #02b60b;
+}
+
+/* Dark theme */
+.dark,
+.dark .new-post button{
+   color: #fff;
+   box-shadow: #3ee577 ;
+}
+.dark .new-post {
+  box-shadow: 0.5px 0.5px 10px 0.5px #000;
+}
+.dark section h2{
+  color: #3ee577;
+  text-shadow: 0 0 6px #3ee577;
+}
+.dark .banner .banner-text h1{
+    color: #aecfae;
+    text-shadow: 0 0 6px  #02b60b;
+}
+.dark nav .logo{
+    color:#95d996;
+    text-shadow: 0 0 6px  #02b60b;
+}
+.dark nav ul a{
+    color: #95d996;
+}
+.dark .btn{
+    color: #95d996;
+}
+.dark .posts li{
+    color: #000;
 }
