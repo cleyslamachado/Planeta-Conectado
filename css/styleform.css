@@ -79,6 +79,10 @@ footer {
   box-shadow: 0.5px 0.5px 10px 0.5px #000;
   width: 100%;
 }
+.dark header {
+  background-color: #263238;
+  color: #fff;
+}
 .dark .form-container h2{
  color: #3ee577;
   text-shadow: 0 0 6px #3ee577
