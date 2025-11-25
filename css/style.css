@@ -208,3 +208,124 @@ button:hover {
     background: #2438ff;
 }
 
+/* Tablet */
+
+@media (max-width: 991px) {
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .banner .banner-text {
+    margin: 60px 20px;
+    padding: 0 20px;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 38px;
+  }
+
+  .banner .banner-text p {
+    font-size: 18px;
+  }
+
+  .container-listas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container-listas section {
+    width: 100%;
+  }
+}
+
+/* CELULARES */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav ul a {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .banner {
+    padding: 40px 0;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 32px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+/* CELULARES */
+@media (max-width: 600px) {
+
+  header {
+    background-attachment: scroll;
+  }
+
+  nav .logo {
+    font-size: 24px;
+  }
+
+  .banner .banner-text {
+    margin: 30px 10px;
+    padding: 0;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 28px;
+  }
+
+  .banner .banner-text p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 12px 16px;
+    border-radius: 12px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* CELULARES */
+@media (max-width: 480px) {
+
+  nav ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  nav ul a {
+    margin: 5px 0;
+  }
+
+  .container-listas {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  button {
+    width: 90%;
+  }
+}
