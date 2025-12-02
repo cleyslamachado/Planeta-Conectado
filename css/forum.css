@@ -125,9 +125,6 @@ nav{
     background: #015c24;
 }
 
-
-
-/* Dark theme */
 .dark,
 .dark .new-post button{
    color: #fff;
@@ -158,84 +155,3 @@ nav{
     color: #000;
 
   }
-/* TABLET */
-@media (max-width: 991px) {
-
-  header {
-    padding: 12px 20px;
-  }
-
-  .forum-container {
-    padding: 1rem 1.5rem;
-  }
-
-  .new-post {
-    padding: 1rem;
-  }
-
-  .posts li {
-    padding: 0.9rem;
-  }
-}
-
-/* Celulare */
-@media (max-width: 768px) {
-
-  header {
-    font-size: 0.9rem;
-  }
-
-  .forum-container {
-    max-width: 95%;
-  }
-
-  .new-post button {
-    width: 100%;
-    padding: 0.9rem;
-    font-size: 1rem;
-  }
-}
-
-/* CELULARES */
-@media (max-width: 600px) {
-
-  header {
-    padding: 10px;
-    font-size: 0.85rem;
-  }
-
-  .new-post input,
-  .new-post textarea {
-    padding: 0.7rem;
-    font-size: 0.95rem;
-  }
-
-  .posts li {
-    font-size: 0.95rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
-
-/* Celulares */
-@media (max-width: 480px) {
-
-  .forum-container {
-    padding: 0.5rem;
-  }
-
-  .new-post textarea {
-    height: 120px;
-  }
-
-  .new-post button {
-    font-size: 0.9rem;
-  }
-
-  header {
-    padding: 8px;
-    font-size: 0.8rem;
-  }
-}
