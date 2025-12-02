@@ -293,3 +293,164 @@ form {
 .dark #quiz-result {
   color: #3ee577;
 }
+
+/* ==========================
+   📱 RESPONSIVIDADE GERAL
+   ========================== */
+
+@media (min-width: 1400px) {
+    .container, 
+    .news-container,
+    .forum-container {
+        max-width: 1300px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    nav ul a {
+        margin: 0 15px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 42px;
+    }
+
+    .container-listas section {
+        width: 48%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .news-card img {
+        width: 35%;
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .news-card h2,
+    .news-card p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 38px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner .banner-text {
+        padding: 0 20px;
+        margin: 40px 0;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .container-listas {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .container-listas section {
+        width: 100%;
+    }
+
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+
+    .forum-container {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h2 {
+        font-size: 22px;
+    }
+
+    nav .logo {
+        font-size: 24px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 26px;
+    }
+
+    .banner .banner-text p {
+        font-size: 16px;
+    }
+
+    .news-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .quiz-box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input,
+    button {
+        font-size: 16px;
+    }
+
+    .login-container button,
+    .form-container button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .banner .banner-text h1 {
+        font-size: 22px;
+    }
+
+    nav ul a {
+        font-size: 15px;
+    }
+
+    .login-container {
+        padding: 15px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+}
